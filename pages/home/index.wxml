@@ -1,0 +1,4 @@
+<div class="container">
+    <image class="bg_image" src="../../images/bg.png"></image>
+    <image  class="click_image" src="../../images/click.png" bindtap="download"></image>
+</div>

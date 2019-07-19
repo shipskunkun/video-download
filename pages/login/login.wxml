@@ -1,0 +1,8 @@
+<view class="login-container">
+	<view  wx:if="{{isShow}}">
+		<button class="loginBtn" wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">
+			微信授权登录
+		</button>
+		<view wx:else>请升级微信版本</view>
+	</view>
+</view>
